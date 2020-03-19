@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    background: black;
+    margin: 0 auto;
+  }
+  
+  .container {
+    background: black;
+    border: 7px solid #78EDB2;
+    width: 900px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    width: 20%;
+  }
+  
+  textarea {
+    margin-top: 10px;
+    height: 50%;
+  }
+  h1{
+    text-align: center;
+  }

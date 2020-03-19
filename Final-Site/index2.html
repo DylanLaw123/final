@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Wx JQ AJAX</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="index2.js"></script>  
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card">
+
+      <div class="card-header">
+        <h5 class="card-title">AJAX</h5>
+        <label href="#" id="getwx" class="btn btn-success">GO!</label>
+        <label class="card-text">Get Temperature, Dew Point Temperature, and Pressure!</label>
+        <input type="text" value="KSFO" class="form-control" placeholder="Station ID">   
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">URL:</span>
+            </div>
+            <input type="text" value="https://www.weather.gov/stations/KSEA/observations/latest" class="form-control" id="my-url">
+          </div>
+      </div>
+
+      <div class="card-body">
+        <div class="input-group">
+          <!-- uncomment following line for debugging output from JSON weather data -->
+          <textarea id="my-data" class="form-control" placeholder="Output Data"></textarea>
+        </div>
+        <ul class="list-group">
+          <!-- dynamic rendered HTML <li></li> goes here! -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
