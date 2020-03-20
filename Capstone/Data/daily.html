@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coronavirus Daily</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script  src="index.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <span class="headbydate">Coronavirus by Date: <input type="text" id="datepicker"></span><button type="button" class="btn btn-success" id="hit-me">submit</button>
+        <p>Bitcoin Price is Currently: <span id="price"></span></p>
+
+        <div class="card">
+    
+          <div class="card-header">
+            <h5 class="card-title">Gov National Weather API</h5>
+            <label href="#" id="getwx" class="btn btn-primary">Get Ajax Wx</label>
+            <label class="card-text">Enter Station ID then click to obtain weather (i.e. KLAX, KSFO, KSEA, etc.)</label>
+            <input type="text" class="form-control" placeholder="Station ID">
+          </div>
+    
+          <div class="card-body">
+            <div class="input-group">
+              <!-- uncomment following line for debugging output from JSON weather data -->
+              <!-- <textarea id="my-data" class="form-control" placeholder="Output Data"></textarea> -->
+            </div>
+    
+            <ul class="list-group">
+              <!-- dynamic rendered HTML <li></li> goes here! -->
+            </ul>
+
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Country</th>
+                    <th>confirmed</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody-data">
+                </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

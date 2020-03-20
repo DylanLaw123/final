@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.red {
+  color: red;
+}
+
+.chart {
+  width: 100%;
+}
+
+body {
+    padding: 20px;
+    background: black;
+    margin: 0 auto;
+}
+  
+.tab-content .container {
+  background: rgb(255, 255, 255);
+  border: 0px solid #48b2e3;
+  width: 100%;
+  padding: 5px;
+}
+
+.headbydate {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 50%;
+}
+  

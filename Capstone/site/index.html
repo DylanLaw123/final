@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coronavirus Update Live by Dylan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/popper.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2 class="red">Coronavirus Daily Update by Dylan</h2>
+  <br>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#world">World</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#us">US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#china">China</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#chart">Chart</a>
+      </li>    
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="world" class="container tab-pane active"><br>
+      World Coronavirus status for <span class="yesterday"></span>
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>confirmed</th>
+                  <th class="red">Deaths</th>
+                  <th>Recovered</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-data">
+              </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="us" class="container tab-pane fade"><br>
+      US Coronavirus status for <span class="yesterday"></span>
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>State</th>
+                  <th>confirmed</th>
+                  <th class="red">Deaths</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-data">
+              </tbody>
+          </table>
+        </div>
+      </div>    </div>
+    <div id="china" class="container tab-pane fade"><br>
+      China Coronavirus status for <span class="yesterday"></span>
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Province</th>
+                  <th>confirmed</th>
+                  <th class="red">Deaths</th>
+                  <th>Recovered</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-data">
+              </tbody>
+          </table>
+        </div>
+      </div>    </div>
+    <div id="chart" class="container tab-pane fade"><br>
+        <h3>Global chart</h3>
+        <div>
+            <img class="chart" src="https://covid19.mathdro.id/api/og" />
+        </div>
+    </div>    
+  </div>
+
+
+
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

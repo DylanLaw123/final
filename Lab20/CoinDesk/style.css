@@ -1,0 +1,36 @@
+body {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h4 {
+  padding: 20px 0;
+}
+
+.container {
+  background: #CDCDCD;
+  border: 7px solid #4b2e83;
+  width: 900px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 20%;
+}
+
+#price {
+  background-color: black;
+  color: green;
+}
+
+#graph {
+  width: 800px;
+  height: 250px;
+  margin: 20px auto 0 auto;
+}
+pre {
+  height: 250px;
+  overflow: auto;
+}
