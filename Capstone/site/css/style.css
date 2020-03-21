@@ -15,7 +15,7 @@ table {
 }
 
 .red {
-  color: red;
+  color: #FFD700;
 }
 
 .chart {
@@ -24,7 +24,7 @@ table {
 
 body {
     padding: 20px;
-    background: black;
+    background: #301934;
     margin: 0 auto;
 }
   
